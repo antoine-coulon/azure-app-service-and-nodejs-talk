@@ -24,7 +24,7 @@ css: unocss
 
 # Azure App Service et Node.js, the good, the bad, the ugly
 
-### Antoine Coulon @ DevTalks - 30/11/2023
+### Antoine Coulon @ DevTalks - 30/10/2023
 
 ---
 layout: center
@@ -275,7 +275,7 @@ Trop de responsabilités pour un process applicatif.
 - ✅ basé sur une image Docker, marche avec tous les services de conteneurisation (Azure ou autre)
 - ✅ déploiement continu 
 
+---
 
-
-
+Questions ?
 
