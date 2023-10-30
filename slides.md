@@ -26,6 +26,7 @@ css: unocss
 
 ### Antoine Coulon @ DevTalks - 30/10/2023
 
+<!-- Bonne nouvelle: Azure, mauvaise nouvelle: Node.js -->
 ---
 layout: center
 ---
@@ -73,6 +74,7 @@ h1 {
 | <kbd>Azure Red Hat OpenShift</kbd> | Enterprise-grade K8S platform |
 
 
+<!-- Beaucoup de choix s'offrent à nous -->
 
 <style>
 h1, h2 {
@@ -186,6 +188,8 @@ Aucune propagation du signal de terminaison SIGTERM à l'application n'est possi
 
 - Une fois le déploiement effectué, l'app est exécutée dans un conteneur dont la config par défaut ne permet pas de graceful shutdown.
 
+- vu qu'on ne fournit pas de docker image, la startup command de la webapp pourrait être émulée dans celle du container
+
 - Shell ne devrait pas être PID1
 
 -->
@@ -204,6 +208,7 @@ SIGTERM puis après X secondes, SIGKILL
 | <kbd>Azure App Service</kbd> | SIGTERM (30s) + SIGKILL |
 <kbd>Docker</kbd> | SIGTERM (10s) + SIGKILL |
 
+<!-- En général les superviseur/orchestrateurs suivent la même logique -->
 ---
 
 # The good: déploiement à partir d'une image Docker
