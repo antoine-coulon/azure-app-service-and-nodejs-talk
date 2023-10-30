@@ -36,7 +36,7 @@ layout: center
 <div class="grid grid-cols-[3fr,2fr]">
   <div class="text-center pb-4">
     <div class="leading-8 opacity-80">
-      Software Engineer @ TCM Labs
+      Software Engineer @ evryg
       <br>
       Open Source Maintainer 
     </div>
