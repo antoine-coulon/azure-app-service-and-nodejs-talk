@@ -45,9 +45,9 @@ layout: center
 
   <div class="text-center">
     <div class="p-2">
-    <ri-github-line class="opacity-50" /> antoine-coulon <br>
+    GitHub: antoine-coulon <br>
     </div>
-    <ri-twitter-line class="opacity-50"/> c9antoine
+    Twitter: c9antoine
   </div>
 </div>
 
@@ -213,8 +213,6 @@ SIGTERM puis après X secondes, SIGKILL
 #### ✅ Rapide et stable
 
 #### ✅ Intégration facile App Service avec Azure Container Registry (ACR)
-
-<br>
 
 #### ✅ Déploiement continu avec webhooks pour s'abonner aux changements ACR
 

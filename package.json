@@ -10,9 +10,7 @@
   "dependencies": {
     "@slidev/cli": "^0.43.12",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
-  },
-  "devDependencies": {
+    "@slidev/theme-seriph": "latest",
     "@iconify-json/ri": "^1.1.12"
   }
 }
